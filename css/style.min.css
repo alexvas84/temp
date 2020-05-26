@@ -34,7 +34,7 @@ body {
   font-size: 15px;
   line-height: 24px;
   color: #546e7a;
-  overflow-x: hidden;
+
 }
 
 .wrapper {
@@ -46,6 +46,8 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   min-height: 100%;
+    overflow-x: hidden;
+  position: relative;
 }
 
 .content {
